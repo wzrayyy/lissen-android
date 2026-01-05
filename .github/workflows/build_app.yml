@@ -39,4 +39,4 @@ jobs:
 
       # Run Build Project
       - name: Build gradle project
-        run: ./gradlew build -Proom.schemaLocation=$GITHUB_WORKSPACE/app/schemas
+        run: ./gradlew build -Proom.schemaLocation=$GITHUB_WORKSPACE/app/schemas --info --stacktrace
